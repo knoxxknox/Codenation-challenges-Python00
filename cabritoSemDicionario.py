@@ -28,8 +28,9 @@ while n <= tamTextoCifrado:
         else:
             
             cabritoInvertido = cabrito[::-1] 
-            # cabritoInvertido é uma lista invertida de cabrito [z, y, w,...] vocë criar manualmente junto a cabrito também
-            # basta multiplicar o indice por -1, para remover o negativo, assim por exemplo, o valor -2, será 2 que nesta lista ser[a o y.]
+            # cabritoInvertido é uma lista invertida de cabrito [z, y, w,...] vocë também pode criar manualmente, no momento em que criar cabrito
+            # como no python posso usar esse recurso, não preciso escrever na mão o alfabeto de trás para frente
+            # basta multiplicar o indice (que é negativo) por -1, para remover o negativo, assim por exemplo, o valor -2, será 2 que nesta lista (cabritoInvertido) o indice 2 é o y.
             
             indice = (indice * -1)
             
